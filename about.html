@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport content=width=device-width,intital-scale=2">
+        <link rel="stylesheet" href="c:\Users\nkweb\OneDrive\Desktop\Assignment WMD codes\style.css">
+        <title>WARNER Bros</title>
+
+        <header>
+            <div class="logo">
+                <img src="c:\Users\nkweb\OneDrive\Desktop\Assignment WMD codes\logos\wb logo.jpg" width="25px" height="25px">
+            </div>
+            <div class="topnav">
+                <a href="c:\Users\nkweb\OneDrive\Desktop\Assignment WMD codes\index page.html">Home</a>
+                <a href="c:\Users\nkweb\OneDrive\Desktop\Assignment WMD codes\movies.html">Movies</a>
+                <a href="c:\Users\nkweb\OneDrive\Desktop\Assignment WMD codes\tv show.html">TV shows</a>
+                <a href="c:\Users\nkweb\OneDrive\Desktop\Assignment WMD codes\games & apps.html">Games & Apps</a>
+                <a href="c:\Users\nkweb\OneDrive\Desktop\Assignment WMD codes\collection.html">Collection</a>
+                <a href="c:\Users\nkweb\OneDrive\Desktop\Assignment WMD codes\feedback.html">Feedback</a>
+                <a href="c:\Users\nkweb\OneDrive\Desktop\Assignment WMD codes\about.html">About</a>
+        </header>
+       <br>
+       <br>
+       <style>
+        .heading{
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 20px auto;
+        }
+
+        .heading h1{
+            font-size: 50px;
+            color: #000;
+            margin-bottom: 25px;
+            position: relative;
+        }
+        .heading h1::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 4px;
+            display: block;
+            margin:0 auto;
+            background-color: #4caf50;
+        }
+        .heading p{
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 35px;
+
+        }
+        .container{
+            width: 90%;
+            margin:0 auto;
+            padding:10px 20px;
+        }
+        .about{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .about-image{
+            flex: 1;
+            margin-right: 40px;
+            overflow: hidden;
+        }
+        .about-image img{
+            max-width: 100%;
+            height: auto;
+            display: block;
+            transition: 0.5s ease;
+            
+        }
+        .about-image:hover img{
+            transform: scale(1.2);
+
+        }
+        .about-content{
+            flex: 1;
+        }
+        .about-content h2{
+            font-size: 23px;
+            margin-bottom: 15px;
+            color: #333;
+            float: right;
+
+        }
+        .about-content p{
+            font-size: 18px;
+            line-height: 1.5;
+            color: #666;
+        }
+        .about-content .read-more{
+            display: inline-block;
+            padding:10px 20px;
+            color: #fff;
+            font-size: 19px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-top: 15px;
+            transition: 0.3s ease;
+            background-color: #4caf50;
+        }
+        .about-content .read-more:hover{
+            background-color: #3e8e41;
+        }
+        @media screen and (max-width: 768px) {
+           .heading p{
+            font-size: 36px;
+           } 
+           .heading p{
+            font-size: 17px;
+            margin-bottom: 20px;
+           }
+           .about{
+            padding: 20px;
+            flex-direction: column;
+           }
+           .about-image{
+            margin-right: 0px;
+            margin-bottom: 20px;
+           }
+           .about-content p{
+            padding: 0px;
+            font-size: 16px;
+            float: right;
+           }
+           .about-content .read-more{
+            font-size: 16px;
+           }
+        }
+
+
+
+
+
+
+       </style>
+    </head>
+    <body style="background-color: rgb(185, 182, 182)">
+        <div class="heading">
+            <h1 ><b>ABOUT US</b></h1>
+            <p >We have satrted this entertainment website to show case ,movies, Tv Shows, Games & Apps, book collections,feedback and about us.</p>
+        
+        </div>
+        <div class="container">
+            <section class="about">
+                <div class="about-image">
+                    <img src="c:\Users\nkweb\OneDrive\Desktop\Assignment WMD codes\slideshow\movie5.avif">
+
+        </div>
+        <div class="about-container">
+            <h2>HISTROY</h2>
+            <p>We started this website in 2010,
+                 when we discovered that we can show case any movie that is available in the threaters, 
+                offering you with enternaiment of any kind, including video games and apps that are available.
+            </p>
+            <a href="" class="read-more">Read more</a>
+        </div>
+            </section>
+        </div>
+
+
+
+    </body>
+    <footer> 
+        <div class="logo">
+            <img src="c:\Users\nkweb\OneDrive\Desktop\Assignment WMD codes\logos\wb logo.jpg" width="25px" height="25px">
+        </div> 
+        <div class="footer">
+            <p style="float: left; margin-left: 20px;">TM & © 2024 Warner Bros. Entertainment Inc</p><br>
+            <p>follow us on:
+            </p>
+        
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <a href="#" class="fa fa-instagram"></a>
+       <a href="#" class="fa fa-facebook"></a>
+       <a href="#" class="fa fa-whatsapp"></a>
+       <a href="#" class="fa fa-twitter"></a>
+        </div>
+      </footer>
+</html>
